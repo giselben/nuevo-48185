@@ -133,6 +133,23 @@ div h4{
     font-size: 20px;
     font-style: italic;
 }
+/*--------FOOTER--------*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(211, 211, 211, 0.678) ;
+    padding: 30px;
+}
+
+footer img{
+    width:50px;
+    height: 50px;
+    transition: 1s;
+}
+footer img:hover{
+    transform: scale(1.1);
+}
 
 /*--------quienes somos ---------*/
 
@@ -166,32 +183,22 @@ div h4{
 /*--------ADOPTA--------*/
 
 
-/*--------FOOTER--------*/
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:rgba(211, 211, 211, 0.678) ;
-    padding: 30px;
-}
-
-footer img{
-    width:50px;
-    height: 50px;
-    transition: 1s;
-}
-footer img:hover{
-    transform: scale(1.1);
+/*--------COLABORA--------*/
+.parrafo-tienda{
+    font-family:'Klee One', cursive;
+    font-size: 20px;
+    padding: 20px;
 }
 
 
 /*--------Contactanos--------*/
 
 .formulario {
-    font-family:'Klee One', cursive  ;
+    font-family:'Klee One', cursive;
+    padding: 20px;
 }
 div {
-    font-family:'Klee One', cursive  ;
+    font-family:'Klee One', cursive;
 
 }
 /*--------MEDIAS QUERYS--------*/
