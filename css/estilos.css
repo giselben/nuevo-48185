@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Klee+One:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/** variables **/
+header {
+  background-color: #b0dff1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header h1 {
+    background-color: orange;
+    font-family: 'Klee One', cursive;
+    font-size: 25px; }
+    header h1 img {
+      width: 80px; }
+      header h1 img nav ul {
+        list-style: none;
+        display: flex; }
+        header h1 img nav ul li {
+          margin: 5px 10px 5px 10px; }
+          header h1 img nav ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            font-family: 'Klee One', cursive; }
+            header h1 img nav ul li a:hover {
+              color: white; }
+
+.hero {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/fondos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: beige;
+  text-align: center;
+  font-family: 'Klee One', cursive;
+  font-size: 20px; }
+  .hero p {
+    margin-bottom: 20px; }
+  .hero a {
+    text-decoration: none;
+    color: black;
+    background-color: #ebeaea; }
+  .hero .animation-boton {
+    border-radius: 8px; }
+  .hero:hover {
+    background-color: black;
+    color: white; }
+  .hero .contenedor-imagenes h3 {
+    font-family: 'Klee One', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px; }
+    .hero .contenedor-imagenes h3 .imagenes {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .hero .contenedor-imagenes h3 .imagenes div {
+        transition: 1s; }
+        .hero .contenedor-imagenes h3 .imagenes div:hover {
+          transform: scale(1.1);
+          box-shadow: 6px 10px 9px -3px rgba(0, 0, 0, 0.6);
+          -webkit-box-shadow: 6px 10px 9px -3px rgba(0, 0, 0, 0.6);
+          -moz-box-shadow: 6px 10px 9px -3px rgba(0, 0, 0, 0.6); }
+        .hero .contenedor-imagenes h3 .imagenes div img {
+          width: 250px;
+          height: 250px; }
+        .hero .contenedor-imagenes h3 .imagenes div a {
+          text-decoration: none;
+          color: black;
+          font-family: 'Klee One', cursive;
+          font-size: 30px; }
+
+.texto {
+  text-align: center; }
+  .texto h2 {
+    font-style: italic; }
+  .texto .preguntas {
+    padding: 10px; }
+  .texto h4 {
+    font-size: 20px;
+    font-style: italic; }
+
+/*   adopta   */
+/*   colabora   */
+.parrafo-tienda {
+  font-family: 'Klee One', cursive;
+  font-size: 20px;
+  padding: 20px; }
+
+.tienda {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+
+/*   quienes somos   */
+h2 {
+  text-align: center;
+  font-family: 'Klee One', cursive; }
+
+p {
+  text-align: center;
+  font-family: 'Klee One', cursive;
+  padding: 20px; }
+
+.galeria-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center; }
+
+img {
+  width: 400px;
+  height: 300px; }
+
+/*   contacto    */
+.formulario {
+  font-family: 'Klee One', cursive;
+  padding: 10px; }
+  .formulario .formulario h1 {
+    font-size: 5px; }
+  .formulario .form {
+    margin: 20px; }
+    .formulario .form div {
+      font-family: 'Klee One', cursive; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.678);
+  padding: 30px;
+  position: fixed; }
+  footer img {
+    width: 50px;
+    height: 50px;
+    transition: 1s; }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center; }

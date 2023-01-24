@@ -1,0 +1,18 @@
+@import "./base/generales";
+@import "./base/variables";
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+@import "./base/mediaquerys";
+
+$colores:
+rgb(176, 223, 241),
+pink,
+orange;
+
+%flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
