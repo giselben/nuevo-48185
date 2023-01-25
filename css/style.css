@@ -99,6 +99,7 @@ section  h3{
     justify-content: center;
     margin: 15px;
     padding: 15px;
+    font-weight: 300px;
 }
 section .imagenes{
     display: flex;

@@ -5,3 +5,24 @@ rgb(176, 223, 241),
 pink,
 orange;
 
+
+/** extends **/
+
+%flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+/** mixins **/
+
+@mixin flex ($flex, $justify, $wrap){
+    display: $flex;
+    justify-content: $justify;
+    flex-wrap: $wrap
+}
+
+.imagenes{
+    @include flex (flex, space-evenly, wrap)
+}

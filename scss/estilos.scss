@@ -16,3 +16,9 @@ orange;
     justify-content: start;
     align-items: center;
 }
+
+@mixin flex ($flex, $justify, $wrap){
+    display: $flex;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
