@@ -50,6 +50,9 @@ header nav ul li a:hover{
 
 
 /*--------MAIN--------*/
+body{
+    background-color: antiquewhite;
+}
 
 .hero { 
     width: 100%;
@@ -99,7 +102,7 @@ section  h3{
     justify-content: center;
     margin: 15px;
     padding: 15px;
-    font-weight: 300px;
+
 }
 section .imagenes{
     display: flex;
@@ -131,7 +134,13 @@ section div img{
 }
 .texto{
     text-align: center;
+
 }
+.preguntas ul{
+    list-style: none;
+}
+
+
 .texto div h2{
 font-style: italic;
 }
@@ -171,7 +180,7 @@ footer img:hover{
 
 }
 .carrousel img{
-    width: 10%;
+    width: 300px;
     height: 70vh;
 }
 .galeria-container {
@@ -188,6 +197,29 @@ footer img:hover{
 }
 
 /*--------ADOPTA--------*/
+.imagenes{
+    margin: 10px;
+}
+
+.adopta{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    margin-top: 10px;
+}
+
+.adopcion{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+
+}
 
 
 /*--------COLABORA--------*/
@@ -199,8 +231,10 @@ footer img:hover{
 .tienda {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
+
 }
 
 
@@ -213,11 +247,23 @@ footer img:hover{
     font-size: 10px;
     padding: 10px;
 }
+
+.formulario h1 {
+    font-size: 20px;
+
+}
+.form div h3{
+    font-size: 20px;
+}
 div{
     font-family:'Klee One', cursive;
 }
-.form{
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 20px;
+    padding: 10px;
 }
 /*--------MEDIAS QUERYS--------*/
 @media screen and (max-width:1060px){
@@ -227,7 +273,11 @@ div{
         gap: 10px;
     }
 }
-
+@media screen and (max-width: 1050px){
+    .tienda{
+        flex-direction: column;
+    }
+}
 
 
 @media screen and (max-width:980px){

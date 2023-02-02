@@ -6,7 +6,11 @@
     }
 }
 
-
+@media screen and (max-width: 1050px){
+    .tienda{
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-width:980px){
     header{
